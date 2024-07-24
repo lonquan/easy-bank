@@ -1,14 +1,14 @@
 <?php
 declare(strict_types=1);
 
-namespace AntCool\EasyBank\Kernel;
+namespace EasyBank\Kernel;
 
-use AntCool\EasyBank\Contracts\BankInterface;
-use AntCool\EasyBank\Middleware\HttpClientMiddleware;
-use AntCool\EasyBank\Support\Logger;
-use AntCool\EasyBank\Traits\UseHttpClient;
-use AntCool\EasyBank\Traits\UseLogger;
-use AntCool\EasyBank\Traits\UseMerchant;
+use EasyBank\Contracts\BankInterface;
+use EasyBank\Middleware\HttpClientMiddleware;
+use EasyBank\Support\Logger;
+use EasyBank\Traits\UseHttpClient;
+use EasyBank\Traits\UseLogger;
+use EasyBank\Traits\UseMerchant;
 use GuzzleHttp\Client as Http;
 use GuzzleHttp\Handler\CurlHandler;
 use GuzzleHttp\HandlerStack;

@@ -1,9 +1,9 @@
 <?php
 declare(strict_types=1);
 
-namespace AntCool\EasyBank\Traits;
+namespace EasyBank\Traits;
 
-use AntCool\EasyBank\Support\Logger;
+use EasyBank\Support\Logger;
 
 trait UseLogger
 {

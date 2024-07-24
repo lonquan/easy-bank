@@ -1,11 +1,11 @@
 <?php
 declare(strict_types=1);
 
-namespace AntCool\EasyBank\Banks;
+namespace EasyBank\Banks;
 
-use AntCool\EasyBank\Contracts\MerchantInterface;
-use AntCool\EasyBank\Kernel\Client;
-use AntCool\EasyBank\Merchants\GuizhouBankMerchant;
+use EasyBank\Contracts\MerchantInterface;
+use EasyBank\Kernel\Client;
+use EasyBank\Merchants\GuizhouBankMerchant;
 
 class GuizhouBank extends Client
 {

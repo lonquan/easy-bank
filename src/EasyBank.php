@@ -1,13 +1,13 @@
 <?php
 declare(strict_types=1);
 
-namespace AntCool\EasyBank;
+namespace EasyBank;
 
-use AntCool\EasyBank\Exceptions\InvalidConfigException;
-use AntCool\EasyBank\Kernel\Client;
-use AntCool\EasyBank\Kernel\Server;
-use AntCool\EasyBank\Support\Config;
-use AntCool\EasyBank\Support\Logger;
+use EasyBank\Exceptions\InvalidConfigException;
+use EasyBank\Kernel\Client;
+use EasyBank\Kernel\Server;
+use EasyBank\Support\Config;
+use EasyBank\Support\Logger;
 
 class EasyBank
 {

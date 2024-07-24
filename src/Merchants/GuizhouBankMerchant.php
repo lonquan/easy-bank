@@ -1,11 +1,11 @@
 <?php
 declare(strict_types=1);
 
-namespace AntCool\EasyBank\Merchants;
+namespace EasyBank\Merchants;
 
-use AntCool\EasyBank\Support\Merchant;
-use AntCool\EasyBank\Support\PrivateKey;
-use AntCool\EasyBank\Support\PublicKey;
+use EasyBank\Support\Merchant;
+use EasyBank\Support\PrivateKey;
+use EasyBank\Support\PublicKey;
 
 class GuizhouBankMerchant extends Merchant
 {

@@ -1,7 +1,7 @@
 <?php
 declare(strict_types=1);
 
-namespace AntCool\EasyBank\Support;
+namespace EasyBank\Support;
 
 use Monolog\Logger as MonologLogger;
 use Monolog\Handler\RotatingFileHandler;

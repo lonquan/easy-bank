@@ -1,10 +1,10 @@
 <?php
 declare(strict_types=1);
 
-namespace AntCool\EasyBank\Support;
+namespace EasyBank\Support;
 
-use AntCool\EasyBank\Contracts\MerchantInterface;
-use AntCool\EasyBank\Exceptions\InvalidConfigException;
+use EasyBank\Contracts\MerchantInterface;
+use EasyBank\Exceptions\InvalidConfigException;
 
 class Merchant implements MerchantInterface
 {
@@ -29,6 +29,9 @@ class Merchant implements MerchantInterface
         return $this->publicKey;
     }
 
+    /**
+     * @throws \Throwable
+     */
     public function setMerchantId(int|string $mchId): void
     {
         throw_if(empty($mchId), InvalidConfigException::class, 'Merchant ID is a required parameter.');

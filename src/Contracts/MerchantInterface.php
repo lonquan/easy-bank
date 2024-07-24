@@ -1,10 +1,9 @@
 <?php
 declare(strict_types=1);
 
-namespace AntCool\EasyBank\Contracts;
-
-use AntCool\EasyBank\Support\PrivateKey;
-use AntCool\EasyBank\Support\PublicKey;
+namespace EasyBank\Contracts;
+use \EasyBank\Support\PrivateKey;
+use \EasyBank\Support\PublicKey;
 
 interface MerchantInterface
 {

@@ -1,9 +1,9 @@
 <?php
 declare(strict_types=1);
 
-namespace AntCool\EasyBank\Traits;
+namespace EasyBank\Traits;
 
-use AntCool\EasyBank\EasyBank;
+use EasyBank\EasyBank;
 use GuzzleHttp\Client as Http;
 
 trait UseHttpClient

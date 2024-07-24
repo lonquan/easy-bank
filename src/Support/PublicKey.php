@@ -1,9 +1,9 @@
 <?php
 declare(strict_types=1);
 
-namespace AntCool\EasyBank\Support;
+namespace EasyBank\Support;
 
-use AntCool\EasyBank\Exceptions\InvalidConfigException;
+use EasyBank\Exceptions\InvalidConfigException;
 
 class PublicKey
 {

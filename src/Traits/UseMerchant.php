@@ -1,9 +1,9 @@
 <?php
 declare(strict_types=1);
 
-namespace AntCool\EasyBank\Traits;
+namespace EasyBank\Traits;
 
-use AntCool\EasyBank\Contracts\MerchantInterface;
+use EasyBank\Contracts\MerchantInterface;
 
 trait UseMerchant
 {

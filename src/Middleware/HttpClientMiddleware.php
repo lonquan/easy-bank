@@ -1,9 +1,9 @@
 <?php
 declare(strict_types=1);
 
-namespace AntCool\EasyBank\Middleware;
+namespace EasyBank\Middleware;
 
-use AntCool\EasyBank\Support\Logger;
+use EasyBank\Support\Logger;
 use Psr\Http\Message\RequestInterface;
 use Psr\Http\Message\ResponseInterface;
 

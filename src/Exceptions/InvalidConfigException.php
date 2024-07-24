@@ -1,7 +1,7 @@
 <?php
 declare(strict_types=1);
 
-namespace AntCool\EasyBank\Exceptions;
+namespace EasyBank\Exceptions;
 
 class InvalidConfigException extends \Exception
 {
